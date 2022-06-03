@@ -1,0 +1,142 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  gap: 0px;
+  background-image: url("../img/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+a,
+img {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(49 81 170);
+}
+
+.imagens {
+  margin-bottom: 10px;
+}
+
+.imagens img {
+  display: block;
+  object-fit: scale-down;
+  margin: 0;
+  background-color: #000000;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 1fr auto 1fr;
+  border-radius: 4px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.conteudo-interno {
+  grid-column: 2;
+  grid-row: 2;
+  display: inline-block;
+  padding: 0 0 20px 0px;
+  max-width: 400px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  place-content: center;
+}
+
+.introducao {
+  padding: 10px 30px;
+  margin: 20px 0px;
+  position: relative;
+}
+
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 48px;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.formulario-preencher input {
+  border: 2px solid #3151aa;
+  border-radius: 4px;
+  padding: 10px 23px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: 0.8s;
+  margin-bottom: 20px;
+}
+
+.formulario-preencher input:focus {
+  background-color: #3151aa41;
+}
+
+.formulario-senha input {
+  border: 2px solid #3151aa;
+  border-radius: 4px;
+  padding: 10px 23px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: 0.5s;
+  margin-bottom: 20px;
+}
+
+.formulario-senha input:focus {
+  background-color: #3151aa41;
+}
+
+.formulario-login button {
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  background-color: #3151aa;
+  color: #ffffff;
+  padding: 10px 25px;
+  line-height: 15px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.dificuldades {
+  display: inline-block;
+  color: #3151aa;
+  margin-bottom: 15px;
+}
+
+.formulario-conta {
+  display: inline-block;
+  border: 3px solid #3151aa;
+  border-radius: 4px;
+  color: #3151aa;
+  background-color: #ffffff;
+  font-weight: 700;
+  padding: 10px 25px;
+  line-height: 15px;
+  text-align: center;
+  transition: 0.9s;
+}
+
+.formulario-conta:hover {
+  background-color: #3151aa;
+  color: #ffffff;
+}
+
+.ajuda a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #808080;
+}
